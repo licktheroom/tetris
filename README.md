@@ -14,6 +14,8 @@ Double click the tetris file or run ./tetris in the directory it's in.
 Being worked on. I'll likely make the executable myself for the bigger updates, so it wouldn't always be up to date.
 ### Mac
 I don't own a Mac so have fun.
+# Use
+The left arrow goes left, the right arrow goes right, and the only way to rotate is the up arrow.
 # Contributing
 I am still learning, so if you plan on adding something or optimizing code I would be thankful if you explained why your way is better.
 
