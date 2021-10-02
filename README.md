@@ -2,6 +2,8 @@
 A tetris game made in C with SDL2. Mostly made for practice. Also so I can play tetris for free.
 
 Press Esc to close the game.
+
+I do not own Tetris nor any of it's assets. All rights reserved to The Tetris Company LLC. The code on the other hand, is mine.
 # Installation
 You must have GCC and the SDL library installed.
 ### Linux
