@@ -4,6 +4,7 @@ A tetris game made in C with SDL2. Mostly made for practice. Also so I can play 
 You must have GCC and the SDL library installed.
 ### Linux
 ```gcc -o tetris tetris.c -lSDL2 -lSDL2_image```
+
 Double click the tetris file or run ./tetris in the directory it's in.
 ### Windows
 Being worked on.
