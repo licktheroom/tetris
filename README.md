@@ -1,5 +1,7 @@
 # tetris
 A tetris game made in C with SDL2. Mostly made for practice. Also so I can play tetris for free.
+
+Press Esc to close the game.
 # Installation
 You must have GCC and the SDL library installed.
 ### Linux
@@ -7,7 +9,7 @@ You must have GCC and the SDL library installed.
 
 Double click the tetris file or run ./tetris in the directory it's in.
 ### Windows
-Being worked on.
+Being worked on. I'll likely make the executable myself for the bigger updates, so it wouldn't always be up to date.
 ### Mac
 I don't own a Mac so have fun.
 # Contributing
