@@ -55,6 +55,8 @@ int main()
 {
 	init();
 
+	printf("I do not own Tetris nor any of it's assets. All rights reserved to The Tetris Company LLC. On a side note, colors were chosen purely off memory.");
+	
 	clock_t last_time = clock();
 
 	while(1)
