@@ -685,11 +685,11 @@ void input()
 				break;
 
 			case SDL_KEYDOWN:
-				SDL_Scancode key = event.key.keysym.scancode;
+				//SDL_Scancode key = event.key.keysym.scancode;
 
-				if(key == SDL_SCANCODE_ESCAPE) // quick leave
+				if(event.key.keysym.scancode == SDL_SCANCODE_ESCAPE) // quick leave
 					clean_up();
-				else if(key == SDL_SCANCODE_LEFT) // calc movement left
+				else if(event.key.keysym.scancode == SDL_SCANCODE_LEFT) // calc movement left
 				{
 					int blocked = 0;
 					for(int i = 0; i < 4; i++)
@@ -712,7 +712,7 @@ void input()
 							player[i][0]--;
 						get_ghost();
 					}
-				} else if(key == SDL_SCANCODE_RIGHT) // calc movement right
+				} else if(event.key.keysym.scancode == SDL_SCANCODE_RIGHT) // calc movement right
 				{
 					int blocked = 0;
 					for(int i = 0; i < 4; i++)
@@ -735,14 +735,14 @@ void input()
 							player[i][0]++;
 						get_ghost();
 					}
-				} else if(key == SDL_SCANCODE_UP) // simple rotation
+				} else if(event.key.keysym.scancode == SDL_SCANCODE_UP) // simple rotation
 				{
 					rotation++;
 
 					if(rotation == 4)
 						rotation = 0;
 					get_rotation();
-				} else if(key == SDL_SCANCODE_SPACE) // quick drop
+				} else if(event.key.keysym.scancode == SDL_SCANCODE_SPACE) // quick drop
 				{
 					for(int i = 0; i < 4; i++)
 					{
